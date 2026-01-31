@@ -23,6 +23,8 @@ img { max-width:100%; display:block; }
   padding-top:0.5rem;
   scroll-snap-type:x mandatory;
   -webkit-overflow-scrolling:touch;
+  margin-bottom:5vh;
+  margin-top:5vh;
 }
 .timeline-container::-webkit-scrollbar{ height:10px; }
 .timeline-container::-webkit-scrollbar-thumb{ background: rgba(0,0,0,0.15); border-radius:6px; }

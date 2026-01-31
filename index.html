@@ -19,118 +19,115 @@
   </header>
 
   <!-- TIMELINE SECTION -->
-  <main>
-    <section class="timeline-section">
-      <h2 class="section-title">Intel Sustainability Timeline</h2>
+  <section class="timeline-section">
+    <h2 class="section-title">Intel Sustainability Timeline</h2>
+    <!-- Horizontal scroll container: shows 4 cards at a time on wide screens -->
+    <div class="timeline-container" role="list">
 
-      <!-- Horizontal scroll container: shows 4 cards at a time on wide screens -->
-      <div class="timeline-container" role="list">
+      <!-- Card template: Add tabindex for keyboard focus, and overlay shows on hover/focus -->
+      <article class="card" tabindex="0">
+        <img src="img/1.jpg" alt="1968 Intel Founded" class="card-image" />
+        <div class="card-body">
+          <h3>1968</h3>
+          <h4>Intel Founded</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Robert Noyce and Gordon Moore rename NM Electronics to Intel Corporation, laying the foundation for decades of innovation.</p>
+        </div>
+      </article>
 
-        <!-- Card template: Add tabindex for keyboard focus, and overlay shows on hover/focus -->
-        <article class="card" tabindex="0">
-          <img src="img/1.jpg" alt="1968 Intel Founded" class="card-image" />
-          <div class="card-body">
-            <h3>1968</h3>
-            <h4>Intel Founded</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Robert Noyce and Gordon Moore rename NM Electronics to Intel Corporation, laying the foundation for decades of innovation.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/2.jpg" alt="1971 First Microprocessor" class="card-image" />
+        <div class="card-body">
+          <h3>1971</h3>
+          <h4>First Microprocessor</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel debuts the 4004, the world's first commercial microprocessor, sparking a revolution in computing.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/2.jpg" alt="1971 First Microprocessor" class="card-image" />
-          <div class="card-body">
-            <h3>1971</h3>
-            <h4>First Microprocessor</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel debuts the 4004, the world's first commercial microprocessor, sparking a revolution in computing.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/3.jpg" alt="1978 8086" class="card-image" />
+        <div class="card-body">
+          <h3>1978</h3>
+          <h4>8086 Processor</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Launch of the 8086 processor, establishing the x86 architecture that powers modern computing.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/3.jpg" alt="1978 8086" class="card-image" />
-          <div class="card-body">
-            <h3>1978</h3>
-            <h4>8086 Processor</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Launch of the 8086 processor, establishing the x86 architecture that powers modern computing.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/4.jpg" alt="1985 386" class="card-image" />
+        <div class="card-body">
+          <h3>1985</h3>
+          <h4>386 Processor</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel introduces the 386 processor with 32-bit architecture, enabling enhanced performance.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/4.jpg" alt="1985 386" class="card-image" />
-          <div class="card-body">
-            <h3>1985</h3>
-            <h4>386 Processor</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel introduces the 386 processor with 32-bit architecture, enabling enhanced performance.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/5.png" alt="2006 Peak GHG Emissions" class="card-image" />
+        <div class="card-body">
+          <h3>2006</h3>
+          <h4>Peak GHG Emissions</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel records its highest operational GHG emissions and invests in renewable energy, abatement and efficiency improvements.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/5.png" alt="2006 Peak GHG Emissions" class="card-image" />
-          <div class="card-body">
-            <h3>2006</h3>
-            <h4>Peak GHG Emissions</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel records its highest operational GHG emissions and invests in renewable energy, abatement and efficiency improvements.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/6.png" alt="2020 RISE Strategy" class="card-image" />
+        <div class="card-body">
+          <h3>2020</h3>
+          <h4>RISE Strategy</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel launches the RISE strategy (Responsible, Inclusive, Sustainable, Enabling) and sets 2030 sustainability goals.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/6.png" alt="2020 RISE Strategy" class="card-image" />
-          <div class="card-body">
-            <h3>2020</h3>
-            <h4>RISE Strategy</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel launches the RISE strategy (Responsible, Inclusive, Sustainable, Enabling) and sets 2030 sustainability goals.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/7.jpg" alt="2022 Net-Zero" class="card-image" />
+        <div class="card-body">
+          <h3>2022</h3>
+          <h4>Net-Zero By 2040</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel commits to net-zero Scope 1 and 2 GHG emissions across global operations by 2040.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/7.jpg" alt="2022 Net-Zero" class="card-image" />
-          <div class="card-body">
-            <h3>2022</h3>
-            <h4>Net-Zero By 2040</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel commits to net-zero Scope 1 and 2 GHG emissions across global operations by 2040.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/8.jpg" alt="2023 Renewable Electricity" class="card-image" />
+        <div class="card-body">
+          <h3>2023</h3>
+          <h4>Renewable Electricity</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel achieves 99% renewable electricity usage worldwide, a major milestone in reducing carbon emissions.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/8.jpg" alt="2023 Renewable Electricity" class="card-image" />
-          <div class="card-body">
-            <h3>2023</h3>
-            <h4>Renewable Electricity</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel achieves 99% renewable electricity usage worldwide, a major milestone in reducing carbon emissions.</p>
-          </div>
-        </article>
+      <article class="card" tabindex="0">
+        <img src="img/9.jpg" alt="2024 Sustainability Summit" class="card-image" />
+        <div class="card-body">
+          <h3>2024</h3>
+          <h4>Sustainability Summit</h4>
+        </div>
+        <div class="card-overlay" aria-hidden="true">
+          <p>Intel hosts its Sustainability Summit to unite suppliers and leaders on sustainable semiconductor manufacturing.</p>
+        </div>
+      </article>
 
-        <article class="card" tabindex="0">
-          <img src="img/9.jpg" alt="2024 Sustainability Summit" class="card-image" />
-          <div class="card-body">
-            <h3>2024</h3>
-            <h4>Sustainability Summit</h4>
-          </div>
-          <div class="card-overlay" aria-hidden="true">
-            <p>Intel hosts its Sustainability Summit to unite suppliers and leaders on sustainable semiconductor manufacturing.</p>
-          </div>
-        </article>
+    </div>
 
-      </div>
-
-      <p class="timeline-hint">Scroll to view timeline — Hover or click a card to read more</p>
-    </section>
-  </main>
+    <p class="timeline-hint">Scroll to view timeline — Hover or click a card to read more</p>
+  </section>
 
   <!-- FOOTER -->
   <footer class="site-footer">
