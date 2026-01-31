@@ -6,12 +6,12 @@ img { max-width:100%; display:block; }
 /* HERO */
 .hero { background: linear-gradient(120deg,#0a6ad1 0%, rgb(0, 15, 66) 100%); color: #fff; padding:3rem 1rem; }
 .hero-inner { max-width:1100px; margin:0 auto; display:flex; align-items:center; gap:1rem; }
-.logo { width:72px; height:auto; }
+.logo { width:150px; height:auto; }
 .hero-text h1 { margin:0 0 .4rem 0; font-size:1.8rem; }
 .hero-text p { margin:0; opacity:0.95; }
 
 /* TIMELINE SECTION */
-.timeline-section { max-width:1100px; margin:2rem auto; padding:0 1rem; }
+.timeline-section { max-width:1300px; margin:2rem auto; padding:0 1rem; }
 .section-title { margin:0 0 1rem 0; font-size:1.2rem; color:#0e4a6b; z-index: 100;}
 
 /* Container with horizontal scrolling. Shows exactly 4 cards at a time on wide viewports. */
